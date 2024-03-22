@@ -195,9 +195,16 @@ body {
     left: 250px;
     opacity: 100%;
   }
+
+  .content_text_left:hover {
+    left: 250px;
+  }
   .content_text_right {
     right: 250px;
     opacity: 100%;
+  }
+  .content_text_right:hover {
+    right: 250px;
   }
   .content_word {
     background-color: rgb(255, 255, 255, 0.5);
