@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Song+Myung&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Gasoek+One&display=swap");
+body {
+  margin: 0;
+}
+
+.header_bar {
+  height: 75px;
+  padding: 1rem;
+  color: white;
+  background: linear-gradient(#3c3b3f, #605c3c);
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Song Myung", serif;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.title_text {
+  font-size: 200%;
+  color: white;
+  transition: all, 1s;
+}
+
+.title_text:hover {
+  font-size: 250%;
+  color: rgb(220, 144, 3);
+  transition: font-size, color, 1s;
+}
+
+.title_text:hover span {
+  color: rgb(255, 85, 0);
+  transition: color, 1s;
+}
+
+.hpLink {
+  text-decoration: none;
+  color: white;
+  transition: font-size, 1s;
+  margin: 0 5px;
+}
+
+.hpLink:hover {
+  font-size: 130%;
+  transition: font-size, 1s;
+}
+
+.image_sec {
+  margin-top: 107px;
+}
+
+.image_block {
+  position: relative;
+  background-color: rgba(64, 64, 64, 0.5);
+}
+
+.main_image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.5;
+  width: 50%;
+  height: 500px;
+}
+
+.main_image_text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 50px;
+  font-family: "Gasoek One", sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+.main_image_sub {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 15px;
+  font-family: "Gasoek One", sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+#horizontal {
+  width: 200px;
+  border-width: 2px;
+  color: gray;
+  border-style: solid;
+  border-radius: 50px;
+}
+
+.main_text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content_block {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.content_text_left {
+  position: relative;
+  opacity: 0%;
+  left: 250px;
+  width: 500px;
+  height: 500px;
+  text-align: center;
+  font-family: "Song Myung", serif;
+  transition: opacity, left, 1.5s;
+  z-index: 1;
+}
+
+.content_text_left:hover {
+  left: 0px;
+  opacity: 100%;
+  transition: all, 1s;
+}
+
+.content_text_right {
+  position: relative;
+  opacity: 0%;
+  right: 250px;
+  width: 500px;
+  height: 500px;
+  text-align: center;
+  font-family: "Song Myung", serif;
+  transition: opacity, left, 1.5s;
+  z-index: 1;
+}
+
+.content_text_right:hover {
+  right: 0px;
+  opacity: 100%;
+  transition: all, 1s;
+}
+
+.content_title {
+  font-size: 40px;
+}
+
+.content_word {
+  padding: 0 40px;
+  font-size: 17px;
+}
+
+.content_image_right {
+  width: 500px;
+  height: 500px;
+}
+
+.content_image_left {
+  width: 500px;
+  height: 500px;
+}
+
+@media screen and (max-width: 1000px) {
+  .main_image_text {
+    font-size: 30px;
+  }
+  .main_image_sub {
+    font-size: 15px;
+  }
+  .main_image {
+    width: 100%;
+  }
+  .content_image_right {
+    opacity: 100%;
+    position: relative;
+    right: 250px;
+    transition: opacity, 1s;
+  }
+  .content_block:hover .content_image_right {
+    opacity: 40%;
+    transition: opacity, 1s;
+  }
+
+  .content_image_left {
+    opacity: 100%;
+    position: relative;
+    left: 250px;
+    transition: opacity, 1s;
+  }
+  .content_block:hover .content_image_left {
+    opacity: 40%;
+    transition: opacity, 1s;
+  }
+  .content_text_left:hover {
+    left: 250px;
+  }
+  .content_text_right:hover {
+    right: 250px;
+  }
+  .content_word {
+    background-color: rgb(255, 255, 255, 0.5);
+  }
+}
+
+footer {
+  background: linear-gradient(to top, #3c3b3f, #605c3c);
+  height: 250px;
+  padding: 30px 20px;
+}
+
+.footer_hr {
+  border-width: 1.5px;
+  border-style: solid;
+  border-color: white;
+}
