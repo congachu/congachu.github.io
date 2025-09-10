@@ -16,7 +16,7 @@ timezone: Asia/Seoul
 
 title: 공부기록 # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the subtitle
+tagline: 궁금한게 많아 이것저것 다 해보는 공부 # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   궁금한게 많아서 이것저것 다 해보는 공부
@@ -94,7 +94,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: "/assets/img/kokomong.jpg"
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
