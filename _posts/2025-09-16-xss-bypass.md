@@ -1,5 +1,5 @@
 ---
-title: "XSS 필터링 우회 : 개념·우회 패턴·실전 대응"
+title: "[Infosec] XSS 필터링 우회 : 개념·우회 패턴·실전 대응"
 date: 2025-09-16 12:40:00 +0900
 categories: [보안, Web]
 tags: [XSS, FilteringBypass, Encoding, URL, SVG, TemplateInjection, CSP]
