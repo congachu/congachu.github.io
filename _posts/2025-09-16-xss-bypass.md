@@ -2,7 +2,7 @@
 title: "[Infosec] XSS 필터링 우회 : 개념·우회 패턴·실전 대응"
 date: 2025-09-16 12:40:00 +0900
 categories: [보안, Web]
-tags: [XSS, FilteringBypass, Encoding, URL, SVG, TemplateInjection, CSP]
+tags: [웹해킹, XSS, FilteringBypass, Encoding, URL, SVG, TemplateInjection, CSP]
 description: "XSS 필터링을 우회해보자"
 author: "송지민"
 toc: true
