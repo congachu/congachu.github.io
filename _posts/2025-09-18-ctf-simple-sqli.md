@@ -1,6 +1,6 @@
 ---
 title: "[CTF] 드림핵 Simple SQLi"
-date: 2025-09-18 21:00:00 +0900
+date: 2025-09-18 18:40:00 +0900
 categories: [CTF, Web]
 tags: [CTF, SQLi]
 description: "드림핵 Simple SQLi"
