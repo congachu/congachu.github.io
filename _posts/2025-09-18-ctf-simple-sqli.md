@@ -85,7 +85,7 @@ app.run(host='0.0.0.0', port=8000)
 
 ---
 
-## 내가 실제로 푼 방법 (풀이 기록 — 블로그용 서술 방식)
+## 내가 실제로 푼 방법
 소스코드를 확인하자마자 SQL 인젝션 포인트가 뻔히 보였다.
 
 ```sql
@@ -119,7 +119,7 @@ select * from users where userid="admin"
 
 ---
 
-## 재현 흐름 (짧게)
+## 재현 흐름
 1. 공격자: `/login`에서 userid에 `admin" --`, pw에 아무 값 입력  
 2. 서버: 최종 쿼리는 `select * from users where userid="admin"`  
 3. 쿼리 결과 admin 계정 반환  
@@ -128,10 +128,10 @@ select * from users where userid="admin"
 
 ---
 
-## 왜 이게 가능했나 (한 줄)
+## 왜 이게 가능했나
 입력값을 이스케이프 없이 그대로 SQL 문자열에 삽입하여 기본적인 SQLi가 발생했기 때문이다.
 
 ---
 
-## 마무리(짧게)
+## 마무리
 simple_sqli 문제는 정말 기본적인 SQL 인젝션 예제였다. 가장 전형적인 `"--` 주석 처리 기법으로 admin 계정에 접근해 FLAG를 획득했다.
