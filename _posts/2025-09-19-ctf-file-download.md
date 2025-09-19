@@ -6,7 +6,7 @@ tags: [CTF, File Vulnerable]
 description: "드림핵 file-download-1"
 author: "송지민"
 toc: true
----------
+---
 
 ## 문제 개요
 

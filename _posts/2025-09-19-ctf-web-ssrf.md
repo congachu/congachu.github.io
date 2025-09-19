@@ -1,5 +1,4 @@
 ---
-
 title: "[CTF] web-ssrf"
 date: 2025-09-19 21:20:00 +0900
 categories: [CTF, Web]
@@ -7,7 +6,7 @@ tags: [CTF, SSRF]
 description: "드림핵 web-ssrf"
 author: "송지민"
 toc: true
----------
+---
 
 ## 문제 개요
 

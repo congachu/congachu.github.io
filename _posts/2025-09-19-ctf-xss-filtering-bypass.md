@@ -1,5 +1,4 @@
 ---
-
 title: "[CTF] XSS Filtering Bypass"
 date: 2025-09-19 21:30:00 +0900
 categories: [CTF, Web]
@@ -7,7 +6,7 @@ tags: [CTF, XSS]
 description: "드림핵 XSS Filtering Bypass"
 author: "송지민"
 toc: true
----------
+---
 
 ## 문제 개요
 

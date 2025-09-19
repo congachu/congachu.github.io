@@ -1,5 +1,4 @@
 ---
-
 title: "[CTF] Dream Gallery"
 date: 2025-09-19 22:00:00 +0900
 categories: [CTF, Web]
@@ -7,7 +6,7 @@ tags: [CTF, SSRF, Filter Bypass]
 description: "드림핵 Dream Gallery"
 author: "송지민"
 toc: true
----------
+---
 
 ## 문제 개요
 
