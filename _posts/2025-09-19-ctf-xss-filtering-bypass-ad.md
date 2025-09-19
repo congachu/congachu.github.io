@@ -18,7 +18,7 @@ toc: true
 
 ---
 
-## 문제에 제공된 원본 소스코드(핵심부)
+## 문제에 제공된 원본 소스코드
 
 ```python
 def xss_filter(text):

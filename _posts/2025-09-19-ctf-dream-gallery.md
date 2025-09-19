@@ -104,7 +104,7 @@ if __name__ == "__main__":
 
 ### 사용한 최종 입력
 
-* 요청 URL (예시):
+* 요청 URL:
 
   ```
   /request?url=file:/fl%61g.txt&title=flag

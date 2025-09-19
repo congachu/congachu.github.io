@@ -19,7 +19,7 @@ toc: true
 
 ---
 
-## 문제에 제공된 원본 소스코드(핵심부)
+## 문제에 제공된 원본 소스코드
 
 아래는 문제에서 제공된 `app.py`의 핵심 부분이다.
 
@@ -102,7 +102,7 @@ def add_member():
 1. `/add_member`에 JSON으로 `role="principal"`을 주고, 구조체 형태로 `cmd` 값을 깊은 위치에 끼워넣어 `merge()`가 `Principal` 인스턴스에 `cmd` 속성을 설정하게 한다.
 2. `/execute`를 호출하면 `principal.command()`가 `self.cmd`를 읽어 `popen()`으로 실행하므로, 예: `cat /flag.txt` 같은 명령 결과를 JSON으로 얻을 수 있다.
 
-### 내가 사용한 페이로드(예시, CTF용)
+### 내가 사용한 페이로드
 
 아래 페이로드는 JSON 바디로 `/add_member`에 POST하는 형식이다.
 
@@ -122,7 +122,7 @@ def add_member():
 
 * 이 페이로드는 `merge()` 호출 과정에서 `setattr()`을 통해 `principal` 객체에 `cmd` 어트리뷰트가 추가되도록 유도한다.
 
-### 재현 예시(간단한 파이썬 스크립트)
+### 재현 예시
 
 ```python
 import requests
