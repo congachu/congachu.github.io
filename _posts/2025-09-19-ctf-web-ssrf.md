@@ -1,5 +1,5 @@
 ---
-title: "[CTF] web-ssrf"
+title: "[CTF] 드림핵 web-ssrf"
 date: 2025-09-19 21:20:00 +0900
 categories: [CTF, Web]
 tags: [CTF, SSRF]

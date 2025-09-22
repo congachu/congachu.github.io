@@ -1,5 +1,5 @@
 ---
-title: "[CTF] file-download-1"
+title: "[CTF] 드림핵 file-download-1"
 date: 2025-09-19 21:10:00 +0900
 categories: [CTF, Web]
 tags: [CTF, File Vulnerable]

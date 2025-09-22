@@ -1,5 +1,5 @@
 ---
-title: "[CTF] XSS Filtering Bypass Advanced"
+title: "[CTF] 드림핵 XSS Filtering Bypass Advanced"
 date: 2025-09-19 21:45:00 +0900
 categories: [CTF, Web]
 tags: [CTF, XSS]

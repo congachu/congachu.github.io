@@ -1,5 +1,5 @@
 ---
-title: "[CTF] Dream Gallery"
+title: "[CTF] 드림핵 Dream Gallery"
 date: 2025-09-19 22:00:00 +0900
 categories: [CTF, Web]
 tags: [CTF, SSRF, Filter Bypass]
