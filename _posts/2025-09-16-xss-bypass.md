@@ -97,7 +97,7 @@ onerror="alert(1)">
 
 ---
 
-## 6. React / Angular / Template Injection(간단 요약)
+## 6. React / Angular / Template Injection
 - **React**: JSX `dangerouslySetInnerHTML`를 쓰지 않으면 보통 안전. 그러나 서버에서 렌더된 HTML을 React가 innerHTML로 넣거나, 서버 템플릿에서 치환 없이 출력하면 문제.
 - **Angular**: 바인딩 컨텍스트(`[]`, `()`)와 `innerHTML` 사용 주의. Angular는 자체 sanitizer를 제공하지만, `bypassSecurityTrustHtml`은 위험.
 - **서버 템플릿 주입**: 서버 템플릿 엔진(예: ejs, nunjucks, jinja2)에서 autoescape를 끈 경우 위험.
@@ -108,7 +108,7 @@ onerror="alert(1)">
 
 ---
 
-## 7. JS 언어 특성 기반 우회 (강력)
+## 7. JS 언어 특성 기반 우회
 - Unicode escape, `String.fromCharCode`, computed member access (`document['coo'+'kie']`), 숫자→36진수 등.
 - 극단적: **JSFuck** 같은 방식으로 키워드 없이도 동작한다 (길지만 우회 가능).
 
@@ -147,7 +147,7 @@ https://victim/?q=<img onerror="eval(location.hash.slice(1))">#alert(document.co
 
 ---
 
-## 10. CSP(Content Security Policy) 실전 예시 (권장)
+## 10. CSP(Content Security Policy) 실전 예시
 - CSP은 XSS 피해 규모를 줄이는 강력한 수단. 예시 헤더:
 ```
 Content-Security-Policy: default-src 'none'; script-src 'self' 'sha256-<HASH>'; object-src 'none'; base-uri 'self'; frame-ancestors 'none';
