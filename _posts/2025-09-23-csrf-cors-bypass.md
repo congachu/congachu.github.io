@@ -1,5 +1,5 @@
 ---
-title: "[Infosec] CSRF · CORS · postMessage · JSONP 정리 (우회·취약점·대응)"
+title: "[Infosec] CSRF · CORS · postMessage · JSONP 정리"
 date: 2025-09-23 09:00:00 +0900
 categories: [보안, Web]
 tags: [CSRF, CORS, postMessage, JSONP, XSS, 취약점, 대응]
