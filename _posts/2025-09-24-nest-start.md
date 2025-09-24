@@ -4,7 +4,6 @@ date: 2025-09-24 23:00:00 +0900
 categories: [Backend, NestJS]
 tags: [NestJS, Backend, Framework]
 description: "NestJS 프로젝트를 시작하고 구조를 알아보자"
-author: "송지민"
 toc: true
 ---
 

@@ -4,7 +4,6 @@ date: 2025-09-18 18:40:00 +0900
 categories: [CTF, Web]
 tags: [CTF, SQLi]
 description: "드림핵 Simple SQLi"
-author: "송지민"
 toc: true
 ---
 

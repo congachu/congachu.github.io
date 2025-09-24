@@ -4,7 +4,6 @@ date: 2025-09-19 21:00:00 +0900
 categories: [CTF, Web]
 tags: [CTF, File Vulnerable]
 description: "드림핵 Image-storage"
-author: "송지민"
 toc: true
 ---
 

@@ -4,7 +4,6 @@ date: 2025-09-19 21:10:00 +0900
 categories: [CTF, Web]
 tags: [CTF, File Vulnerable]
 description: "드림핵 file-download-1"
-author: "송지민"
 toc: true
 ---
 

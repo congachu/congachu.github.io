@@ -3,8 +3,7 @@ title: "[Infosec] CSP 우회 정리"
 date: 2025-09-18 18:00:00 +0900
 categories: [보안, Web]
 tags: [웹해킹, CSP, XSS, Bypass]
-description: "CSP(Content Security Policy) 설정에서 흔히 발생하는 취약점과 우회 기법, 그리고 실무 대응을 정리한 문서입니다."
-author: "송지민"
+description: "XSS를 막기 위한 방법조차 우회해보기"
 toc: true
 ---
 

@@ -4,7 +4,6 @@ date: 2025-09-16 12:40:00 +0900
 categories: [보안, Web]
 tags: [웹해킹, XSS, FilteringBypass, Encoding, URL, SVG, TemplateInjection, CSP]
 description: "XSS 필터링을 우회해보자"
-author: "송지민"
 toc: true
 ---
 > ⚠️ 학습/방어 목적 문서입니다. 테스트는 반드시 본인 환경(로컬/CTF)에서만 진행하세요.

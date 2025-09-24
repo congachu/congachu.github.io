@@ -4,7 +4,6 @@ date: 2025-09-19 21:50:00 +0900
 categories: [CTF, Web]
 tags: [CTF, Prototype Pollution]
 description: "드림핵 filestorage"
-author: "송지민"
 toc: true
 ---
 

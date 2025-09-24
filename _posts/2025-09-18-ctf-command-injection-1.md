@@ -4,7 +4,6 @@ date: 2025-09-18 19:00:00 +0900
 categories: [CTF, Web]
 tags: [CTF, command-injection]
 description: "드림핵 command-injection-1"
-author: "송지민"
 toc: true
 ---
 

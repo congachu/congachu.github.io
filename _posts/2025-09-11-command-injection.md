@@ -4,7 +4,6 @@ date: 2025-09-11 11:10:00 +0900
 categories: [보안, Web]   # 카테고리는 여러 계층도 가능 [상위, 하위]
 tags: [웹해킹, CommandInjection, OSCommand, RCE, Shell]          # 해시태그처럼 글 묶기
 description: "시스템에 접근하라"
-author: "송지민"
 toc: true
 ---
 # 입력 한 줄로 서버를 장악하는 최강의 무기

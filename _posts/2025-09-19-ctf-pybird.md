@@ -4,7 +4,6 @@ date: 2025-09-19 22:20:00 +0900
 categories: [CTF, Web]
 tags: [CTF, Deserialization, Object Injection, Python]
 description: "드림핵 Pybird"
-author: "송지민"
 toc: true
 ---
 

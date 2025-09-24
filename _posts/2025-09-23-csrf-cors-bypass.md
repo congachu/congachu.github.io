@@ -4,7 +4,6 @@ date: 2025-09-23 09:00:00 +0900
 categories: [보안, Web]
 tags: [CSRF, CORS, postMessage, JSONP, XSS, 취약점, 대응]
 description: "보호와 우회 정책 충돌"
-author: "송지민"
 toc: true
 ---
 
