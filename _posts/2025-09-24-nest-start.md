@@ -67,6 +67,26 @@ nest g middleware name
 - 데코레이터로는 직접 사용 불가 → `AppModule.configure()` 안에서 등록해야 함
 
 ```ts
+import { Injectable, Logger, NestMiddleware } from '@nestjs/common';
+import { NextFunction, Request, Response } from 'express';
+
+@Injectable()
+export class LoggerMiddleware implements NestMiddleware {
+  private logger = new Logger('HTTP');
+
+  use(req: Request, res: Response, next: NextFunction) {
+    res.on('finish', () => {
+      this.logger.log(
+        `${req.method} ${req.originalUrl} ${req.ip} ${res.statusCode}`,
+      );
+    });
+    next();
+  }
+}
+
+```
+### 적용 방법
+```ts
 import { MiddlewareConsumer, Module, NestModule } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
