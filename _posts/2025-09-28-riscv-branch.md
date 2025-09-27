@@ -1,6 +1,6 @@
 ---
 title: "[ComputerArch] RISC-V Branch 명령어 정리"
-date: 2025-09-28 22:30:00 +0900
+date: 2025-09-28 01:30:00 +0900
 categories: [Computer Architecture, RISC-V]
 tags: [RISC-V, Assembly, Computer Architecture]
 description: "RISC-V 분기 명령어와 SB-format 정리"
