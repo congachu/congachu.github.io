@@ -1,3 +1,12 @@
+---
+title: "[CS] 자료구조와 알고리즘"
+date: 2026-03-05 05:00:00 +0900
+categories: [CS]
+tags: [Algorithm, Data Structure]
+description: "자료구조와 알고리즘에 대하여"
+toc: true
+---
+
 # 자료구조와 알고리즘
 
 ## 자료구조 (Data Structure)
