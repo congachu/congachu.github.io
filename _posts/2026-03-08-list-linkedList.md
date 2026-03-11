@@ -153,6 +153,7 @@ def remove(self, data):
             return True
         else:
             self.head = self.head.next
+            cur_node.next = None
 
     elif cur_node == self.tail:
         self.tail = prev
@@ -268,6 +269,7 @@ class LinkedList:
                 return True
             else:
                 self.head = self.head.next
+                cur_node.next = None
 
         elif cur_node == self.tail:
             self.tail = prev

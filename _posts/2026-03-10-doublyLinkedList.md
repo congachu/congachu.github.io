@@ -116,8 +116,9 @@ def remove(self, data):
             self.__init__()
             return True
         else:
-            self.head = cur_node.next
-            self.head.prev = None
+            self.head.next.prev = None
+            self.head = self.head.next
+            cur_node.next = None
 
     elif cur_node == self.tail:
 
@@ -227,8 +228,13 @@ class DoublyLinkedList:
         if cur_node == None:
             return False
         if cur_node == self.head:
-            self.__init__()
-            return True
+            if self.size == 1:
+                self.__init__()
+                return True
+            else:
+                self.head.next.prev = None
+                self.head = self.head.next
+                cur_node.next = None
         elif cur_node == self.tail:
             self.tail = cur_node.prev
             self.tail.next = None
